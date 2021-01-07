@@ -1,0 +1,60 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body {
+    height: 100vh;
+    width: 100%;
+    background-image: url("../girl-5230306_960_720.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+img{
+    border-radius: 50%;
+    height: 80px;
+    width: 80px;
+}
+a{
+    color: rgb(204, 161, 161);
+    text-decoration:none;
+    background-color: #ffff;
+    
+ }
+li{
+    color:  rgb(204, 161, 161);
+    
+}
+ul{
+    display: flex;
+    flex-direction: row;
+    gap: 70px;
+    list-style: none;
+
+}
+
+.wrapper {
+    height: 100px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+ 
+.header {
+    margin-left: 20px;
+}
+
+.main-nav {
+    margin-right: 20px;
+}
+
+.menu {
+    height: 30px;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    bottom: 0;
+}
